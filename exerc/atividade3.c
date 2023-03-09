@@ -17,8 +17,8 @@ int main(void){
         printf("Não tem raizes reais.");
     }
     else{
-        s1 = (-b + pow(delta, 0.5))/2*a;
-        s2 = (-b - pow(delta, 0.5))/2*a;
+        s1 = (-b + pow(delta, 0.5))/(2*a);
+        s2 = (-b - pow(delta, 0.5))/(2*a);
         printf("As raizes são %f e %f", s1, s2);
     }
     return 0;
